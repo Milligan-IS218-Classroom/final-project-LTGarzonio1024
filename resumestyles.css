@@ -33,20 +33,20 @@ nav.topnav {
 .topnav {
    display: flex;
    width: 100%;
+   text-align: center;
 }
 
 .topnav ul {
    display: flex;
-   flex-flow: row wrap
-}
-
-.topnav ul ul {
-   display: none;
+   flex-flow: row wrap;
+   list-style-type: none;
+   text-align: center;
 }
 
 .topnav ul li {
    flex: 1 1 auto;
    position: relative;
+   text-align: center;
 }
 
 .topnav ul li:hover ul {
@@ -99,4 +99,24 @@ article.work-history header {
 article.activities header {
    font-size: 1.2em;
    font-style: italic;
+}
+.topnav {
+   box-shadow: 0 0 1px #adadad;
+}
+
+.topnav ul li {
+   padding: 20px 10px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+}
+
+.topnav ul ul {
+   width: 200%;
+}
+
+.topnav ul li:hover {
+   background-color: rgb(255, 255, 255);
+   color: white;
 }
