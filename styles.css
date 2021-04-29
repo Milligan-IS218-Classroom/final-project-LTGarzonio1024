@@ -7,3 +7,28 @@
    Filename: final-project-LTGarzonio1024
 
 */
+
+.top-nav {
+   background-color: rgba(34, 34, 34, 0.8);
+   box-shadow: 0 0 1px #adadad;
+}
+
+.top-nav ul li {
+   padding: 20px 10px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.top-nav ul ul {
+   background-color: rgba(34, 34, 34, 0.8);
+   width: 200%;
+}
+
+.top-nav ul li:hover {
+   background-color: rgb(234, 113, 37);
+   color: white;
+}
+
+.top-nav ul ul li {
+   border-bottom: 1px solid rgb(80, 80, 80);
+}
