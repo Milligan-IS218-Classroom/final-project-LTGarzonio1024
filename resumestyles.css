@@ -49,13 +49,6 @@ nav.topnav {
    text-align: center;
 }
 
-.topnav ul li:hover ul {
-   display: block;
-   position: absolute;
-   left: 0;
-   top: 100%;
-}
-
 header h1 {
    color: black;
    text-align: left;
@@ -112,11 +105,6 @@ article.activities header {
    align-items: center;
 }
 
-.topnav ul ul {
-   width: 200%;
-}
+@media (min-width: 0px) and (max-width: 400px) {
 
-.topnav ul li:hover {
-   background-color: rgb(255, 255, 255);
-   color: white;
 }
