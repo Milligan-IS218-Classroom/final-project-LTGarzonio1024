@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*
+
+   Author: Logan Garzonio
+   Date:   4/27/2021
+   Filename: final-project-LTGarzonio1024
+*/
+
+h1 {
+    text-align: center;
+}
+
+section ul li img {
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 4px solid black;
+}
+
+section ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+section ul li.title {
+    font-size: 1.5em;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    text-align: center;
+}
